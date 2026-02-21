@@ -1,0 +1,14 @@
+{
+    "Records": [
+      {
+        "s3": {
+          "bucket": {
+            "name": "rideshare-lake"
+          },
+          "object": {
+            "key": "raw/year=2026/month=02/day=20/0360cfbe-65d5-4860-abf0-01d47cbc99fd_trip_end.json"
+          }
+        }
+      }
+    ]
+  }

@@ -80,7 +80,7 @@ Validate schema / flatten nested structures ✅
 Convert JSON → Parquet ✅
 Partition by city + year/month/day in curated folder ✅
 Write Parquet to S3 ✅
-Dynamically update Athena partitions (ALTER TABLE ADD PARTITION)
+Dynamically update Athena partitions (ALTER TABLE ADD PARTITION) ✅
 Error handling:
 If Lambda fails, publish a message to SNS
 Optionally push failed events to SQS DLQ for retries
@@ -99,7 +99,7 @@ Total revenue per day
 Average fare by city
 (Optional) Scheduled MSCK REPAIR TABLE or Glue crawler can help detect new partitions automatically.
 
-Step 5: Set up Glue Crawler (daily)
+Step 5: Set up Glue Crawler (daily) ✅ DONE
 
 Schedule daily Glue crawler for curated folder:
 Updates table schema in Athena
